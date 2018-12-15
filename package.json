@@ -1,0 +1,23 @@
+{
+  "name": "reactive-output",
+  "version": "0.0.1",
+  "description": "A inline or full screen console rendering environment written with react elements.",
+  "main": "dist/core.js",
+  "repository": "https://github.com/kingerking/reactive-output",
+  "author": "Kyle King(kingerking)",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "rollup": "^0.67.4"
+  },
+  "dependencies": {
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  }
+}
