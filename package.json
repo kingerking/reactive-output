@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "build": "rollup -c",
-    "build:watch": "rollup -c -w"
+    "build:watch": "nodemon --exec yarn build --watch lib/"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
