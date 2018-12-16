@@ -11,7 +11,7 @@ export default {
         format: "cjs",
         sourcemap: true
     },
-    external: ['lodash'],
+    external: ['lodash', "EventEmitter", "events"],
     plugins: [
         babel({
             exclude: 'node_modules/**'
